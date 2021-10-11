@@ -6,7 +6,7 @@ import data.PhoneBook;
 
 import java.util.ArrayList;
 
-public class PhoneBookView implements Config {
+public class PhoneBookView {
 
     private ArrayList<EntryView> currentEntries;
     private int xPos;
@@ -34,9 +34,9 @@ public class PhoneBookView implements Config {
 
     private void addEntry(Entry entry, int position) {
         float x = xPos;
-        float y = yPos + PHONEBOOK_ENTRY_MARGIN + ((PHONEBOOK_ENTRY_HEIGHT + PHONEBOOK_ENTRY_MARGIN) * position);
+        float y = yPos + Config.PHONEBOOK_ENTRY_MARGIN + ((Config.PHONEBOOK_ENTRY_HEIGHT + Config.PHONEBOOK_ENTRY_MARGIN) * position);
 
-        EntryView newEntryView = new EntryView(x, y, width, PHONEBOOK_ENTRY_HEIGHT, entry);
+        EntryView newEntryView = new EntryView(x, y, width, Config.PHONEBOOK_ENTRY_HEIGHT, entry);
         currentEntries.add(newEntryView);
     }
 

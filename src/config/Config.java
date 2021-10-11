@@ -1,7 +1,7 @@
 package config;
 import de.ur.mi.oop.colors.Color;
 
-public interface Config {
+public final class Config {
 
     /** App **/
     public static final int APP_WIDTH = 500;

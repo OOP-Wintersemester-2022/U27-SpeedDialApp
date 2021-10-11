@@ -10,7 +10,7 @@ import ui.PhoneBookView;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListener, Config {
+public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListener {
 
     private PhoneBook phoneBook;
     private PhoneBookView phoneBookView;
@@ -22,7 +22,7 @@ public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListene
     }
 
     private void initPhoneBook() {
-        File contacts = new File(FILE_PATH);
+        File contacts = new File(Config.FILE_PATH);
         try {
             phoneBook = PhoneBook.createFromFile(contacts);
         } catch (FileNotFoundException e) {
@@ -31,16 +31,16 @@ public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListene
     }
 
     private void initApplication() {
-        setCanvasSize(APP_WIDTH, APP_HEIGHT);
+        setCanvasSize(Config.APP_WIDTH, Config.APP_HEIGHT);
     }
 
     private void initComponents() {
-        phoneBookView = new PhoneBookView(0, PHONEBOOK_ENTRY_MARGIN, APP_WIDTH, phoneBook);
+        phoneBookView = new PhoneBookView(0, Config.PHONEBOOK_ENTRY_MARGIN, Config.APP_WIDTH, phoneBook);
     }
 
     @Override
     public void draw() {
-        drawBackground(APP_BACKGROUND_COLOR);
+        drawBackground(Config.APP_BACKGROUND_COLOR);
         phoneBookView.draw();
     }
 
