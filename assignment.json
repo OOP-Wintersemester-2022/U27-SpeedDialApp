@@ -1,0 +1,12 @@
+{
+    "title": "U09 SpeedDialApp",
+    "abstract": "Eine kleine App auf Basis der *GraphicsApp*, die der Schnellanruffunktion (SpeedDial) von Smartphones nachempfunden ist.",
+    "hasStarterCode": true,
+    "hasSolutionCode": true,
+    "solutionComment": "Lösungsvorschlag zur Aufgabenstellung",
+    "simpleSolutionComment": "",
+    "advancedSolutionComment": "",
+    "hasSimpleSolutionCode": false,
+    "hasAdvancedSolutionCode": false,
+    "solutionAvailableOn": "2022-01-01"
+}
