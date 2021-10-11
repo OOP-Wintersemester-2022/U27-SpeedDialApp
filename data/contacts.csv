@@ -1,6 +1,6 @@
-name,areaCode,number,imagepath
-Alexander Bazo,93053,0941 943-4958,data/assets/AlexanderBazo.jpg
-Jürgen Hahn,93053,0941 46297537,data/assets/JuergenHahn.jpg
-Martina Emmert,93053,100,data/assets/MartinaEmmert.jpg
-Jannik Wiese,93053,200,data/assets/JannikWiese.jpg
-Lukas Schauhuber,93053,400,data/assets/LukasSchauhuber.jpg
+name,address,zip,number,imagepath
+Alexander Bazo,Universitätsstraße 31,93053 Regensburg,0941 943-4958,data/assets/AlexanderBazo.jpg
+Jürgen Hahn,Universitätsstraße 31,93053 Regensburg,0941 46297537,data/assets/JuergenHahn.jpg
+Martina Emmert,Universitätsstraße 31,93053 Regensburg,100,data/assets/MartinaEmmert.jpg
+Jannik Wiese,Universitätsstraße 31,93053 Regensburg,200,data/assets/JannikWiese.jpg
+Lukas Schauhuber,Universitätsstraße 31,93053 Regensburg,400,data/assets/LukasSchauhuber.jpg

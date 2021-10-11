@@ -35,7 +35,8 @@ public class SpeedDialApp extends GraphicsApp implements GraphicsAppMouseListene
     }
 
     private void initComponents() {
-        phoneBookView = new PhoneBookView(0, Config.PHONEBOOK_ENTRY_MARGIN, Config.APP_WIDTH, phoneBook);
+        phoneBookView = new PhoneBookView(0, Config.PHONEBOOK_ENTRY_MARGIN, Config.APP_WIDTH);
+        phoneBookView.setEntries(phoneBook);
     }
 
     @Override
