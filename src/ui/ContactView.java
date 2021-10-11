@@ -2,7 +2,10 @@ package ui;
 
 import config.Config;
 import data.Contact;
-import de.ur.mi.oop.graphics.*;
+import de.ur.mi.oop.graphics.Compound;
+import de.ur.mi.oop.graphics.Image;
+import de.ur.mi.oop.graphics.Label;
+import de.ur.mi.oop.graphics.Rectangle;
 
 import java.util.ArrayList;
 
@@ -61,13 +64,14 @@ public class ContactView {
     }
 
     public void hideAdditionalInformation() {
-        for(Label label: labelsWithAdditionalInformation) {
+        for (Label label : labelsWithAdditionalInformation) {
             label.setColor(Config.PHONEBOOK_ENTRY_BACKGROUND_COLOR);
         }
     }
 
     public void showAdditionalInformation() {
-        for(Label label: labelsWithAdditionalInformation) {
+        for (Label label : labelsWithAdditionalInformation) {
+            label.setColor(Config.PHONEBOOK_FONT_COLOR);
             label.setColor(Config.PHONEBOOK_FONT_COLOR);
         }
     }

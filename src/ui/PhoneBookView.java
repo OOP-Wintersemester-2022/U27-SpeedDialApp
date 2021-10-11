@@ -41,7 +41,7 @@ public class PhoneBookView {
 
     public void draw() {
         titleLabel.draw();
-        if(contactViews == null) {
+        if (contactViews == null) {
             return;
         }
         for (ContactView view : contactViews) {
@@ -55,8 +55,8 @@ public class PhoneBookView {
     }
 
     public void onClick(int x, int y) {
-        for(ContactView contactView : contactViews) {
-            if(contactView.getView().hitTest(x, y)) {
+        for (ContactView contactView : contactViews) {
+            if (contactView.getView().hitTest(x, y)) {
                 contactView.showAdditionalInformation();
             } else {
                 contactView.hideAdditionalInformation();

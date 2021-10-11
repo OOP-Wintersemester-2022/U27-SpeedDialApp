@@ -33,9 +33,9 @@ public class PhoneBook {
     public static PhoneBook createFromFile(File contacts) throws FileNotFoundException {
         PhoneBook book = new PhoneBook();
         ArrayList<String> lines = getContactLinesFromFile(contacts);
-        for(String line: lines) {
+        for (String line : lines) {
             String[] parts = line.split(",");
-            book.addContact(parts[0], parts[1],parts[2], parts[3], parts[4]);
+            book.addContact(parts[0], parts[1], parts[2], parts[3], parts[4]);
         }
         return book;
     }
@@ -43,9 +43,9 @@ public class PhoneBook {
     private static ArrayList<String> getContactLinesFromFile(File contacts) throws FileNotFoundException {
         ArrayList<String> lines = new ArrayList<String>();
         Scanner in = new Scanner(contacts);
-        while(in.hasNext()) {
+        while (in.hasNext()) {
             String currentLine = in.nextLine();
-            if(currentLine.equals("name,address,zip,number,imagepath")) {
+            if (currentLine.equals("name,address,zip,number,imagepath")) {
                 continue;
             }
             lines.add(currentLine);

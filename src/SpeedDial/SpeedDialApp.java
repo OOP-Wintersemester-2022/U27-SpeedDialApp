@@ -3,7 +3,8 @@ package SpeedDial;
 import config.Config;
 import data.PhoneBook;
 import de.ur.mi.oop.app.GraphicsApp;
-import de.ur.mi.oop.events.*;
+import de.ur.mi.oop.events.GraphicsAppMouseListener;
+import de.ur.mi.oop.events.MousePressedEvent;
 import de.ur.mi.oop.launcher.GraphicsAppLauncher;
 import ui.PhoneBookView;
 
