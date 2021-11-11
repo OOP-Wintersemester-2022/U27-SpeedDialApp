@@ -2,7 +2,7 @@
 
 In diesem Übungsblatt implementieren Sie eine kleine App auf Basis der *GraphicsApp*, die der Schnellanruffunktion (SpeedDial) von Smartphones nachempfunden ist.
 
-![SpeedDialApp](./docs/SpeedDialApp1.png){ width=25% }
+![SpeedDialApp](./docs/SpeedDialApp1.png)
 
 Überlegen Sie sich, in welche Komponenten Sie diese Applikation aufteilen wollen (z.B. Telefonbuch, Eintrag).
 Trennen Sie die Daten von Einträgen von den Komponenten, mit denen diese in der App dargestellt werden sollen.
@@ -28,4 +28,4 @@ Die SpeedDialApp soll folgende Funktionalitäten haben:
   * Schauen Sie sich die Methode `public bool hitTest(float x, float y)` in der Dokumentation der *GraphicsApp* an und verwenden Sie diese Methode, um festzustellen, ob ein Eintrag angeklickt wurde
   * Nach einem Klick sollen nur die Daten der Person angezeigt werden, die Sie angeklickt haben.
   
-![SpeedDialApp nach Klick](./docs/SpeedDialApp2.png){ width=25% }
+![SpeedDialApp nach Klick](./docs/SpeedDialApp2.png)
