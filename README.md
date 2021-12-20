@@ -16,7 +16,8 @@ Die SpeedDialApp soll folgende Funktionalitäten haben:
   * Achten Sie auf die Formatierung und ignorieren Sie die erste Zeile (Header)
   * Das OOP-Team ist bereits in `contacts.csv` eingetragen
   * Neue Kontakte können hinzugefügt werden, in dem entsprechend eine neue Zeile zur `contacts.csv` hinzugefügt wird
-  * Verwenden Sie die Klasse `java.util.Scanner` und deren Methode `readLine()`, um Dateien zeilenweise auszulesen
+  * Verwenden Sie die Klasse `java.util.Scanner`, um die Datei einzulesen ```java scanner = new Scanner(new File("path/to/contacts.csv"), "UTF-8");```
+  * Verwenden Sie die Methode `readLine()` der Klasse `java.util.Scanner`, um Dateien zeilenweise auszulesen
   * Verwenden Sie die Methode `String.split()`, um einen *String* in Teilstrings zu zerlegen und als `Array` von *Strings* zu erhalten
 * Implementieren der SpeedDialApp (siehe Bild oben)
   * Anpassung des Canvas
