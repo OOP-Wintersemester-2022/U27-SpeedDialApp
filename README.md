@@ -26,7 +26,7 @@ Die SpeedDialApp soll folgende Funktionalitäten haben:
 * Implementieren der Interaktion mit der SpeedDialApp
   * Wird ein Eintrag (blauer Hintergrund im Bild oben) angeklickt, sollen weitere Daten zur Person angezeigt werden (siehe Bild unten) 
   * Verwenden Sie den `GraphicsAppMouseListener`, um Maus-Events verarbeiten zu können
-  * Schauen Sie sich die Methode `public bool hitTest(float x, float y)` in der Dokumentation der *GraphicsApp* an und verwenden Sie diese Methode, um festzustellen, ob ein Eintrag angeklickt wurde
+  * Schauen Sie sich die Methode `public boolean hitTest(float x, float y)` in der Dokumentation der *GraphicsApp* an und verwenden Sie diese Methode, um festzustellen, ob ein Eintrag angeklickt wurde
   * Nach einem Klick sollen nur die Daten der Person angezeigt werden, die Sie angeklickt haben.
   
 ![SpeedDialApp nach Klick](./docs/SpeedDialApp2.png)
