@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ddbe005-ab45-4210-8154-3d4bf0b63677" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/GraphicsApp_v1_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/GraphicsApp-v1.4.10.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/U09-GraphicsApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/U09-GraphicsApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/GraphicsApp_v1_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/GraphicsApp-v1.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/contacts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/contacts.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
